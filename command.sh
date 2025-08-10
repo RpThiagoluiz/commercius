@@ -1,6 +1,3 @@
-#Criar o banco de dados
-npx drizzle-kit generate
-
 # Raiz - atualizar o banco de dados
 npx drizzle-kit push
 
@@ -12,3 +9,6 @@ npx drizzle-kit studio
 
 # BetterAuth
 npx @better-auth/cli@1.2.12 generate
+
+#Criar as migrations (não precisa rodar se não houver alterações no schema)
+npx drizzle-kit generate
